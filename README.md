@@ -1,8 +1,8 @@
 # Dive into Eagle CAD and design your  first PC Board !
 
-![](https://github.com/IntroToEagleCAD/blob/master/hardware/ClassFiles/finishedbareboard.jpg "" )
-![](https://github.com/IntroToEagleCAD/blob/master/hardware/ClassFiles/layout.jpg "" )
-![](https://github.com/IntroToEagleCAD/blob/master/hardware/ClassFiles/schematic.jpg "" )
+![] (https://github.com/cogwheelcircuitworks/IntroToEagleCAD/blob/master/ClassFiles/finishedbareboard.jpg "" )
+![] (https://github.com/cogwheelcircuitworks/IntroToEagleCAD/blob/master/ClassFiles/schematic.jpg "" )
+![] (https://github.com/cogwheelcircuitworks/IntroToEagleCAD/blob/master/ClassFiles/layout.jpg "" )
 
 Learn the basics of schematic capture and PC Board layout.
 
