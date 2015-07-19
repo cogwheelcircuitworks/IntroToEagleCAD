@@ -1,0 +1,56 @@
+ass f1    group;
+ass f2    move;
+
+ass f7    ;
+ass s+f7;
+ass c+f7;
+ass f8    ;
+ass s+f8;
+ass c+f8;
+ass a+f8;
+ass f9    ;
+ass s+f9;
+ass c+f9;
+ass a+f9;
+ass f10    ;
+ass s+f10;
+ass c+f10;
+ass a+f10;
+ass f11    ;
+ass s+f11;
+ass c+f11;
+ass a+f11;
+ass f12    ;
+ass s+f12;
+ass c+f12;
+ass a+f12;
+# F7 Display all
+ass f7     display all;
+# CTRL-F7 Display none;
+ass c+f7     display none;
+#
+# F8 Display Ratsnest
+ass f8     display unrouted;
+# CTRL-F8 Hide Ratsnest
+ass c+f8   display -unrouted;
+#
+# F9 Display All Top
+ass f9     display none       pads    vias top    dimension tplace    torigins;
+# F9 Hide Display All Top
+ass c+f9   display           -top    -tplace    -torigins;
+#
+# F10 Display Bottom
+ass f10    display none       pads    vias bottom dimension bplace    borigins;
+# CTRL-F10 Hide Bottom
+ass c+f10  display                    -bottom -bplace  -borigins;
+#
+# F11 Show Top Silkscreen
+ass f11      display none       pads    vias tplace dimension tnames    torigins  vrestrict;
+# CTRL-F11 Hide Top Silkscreen
+ass c+f11    display                         -tplace  -tnames -torigins  -vrestrict;
+#
+# F12 Show Bottom Silkscreen
+ass f12    display none         pads vias   bplace    dimension borigins  bnames     vrestrict;
+# CTRL-F12 Show Bottom Silkscreen
+ass c+f12    display           -bplace    -borigins  -bnames     -vrestrict;
+
